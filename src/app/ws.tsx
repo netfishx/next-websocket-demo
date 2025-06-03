@@ -11,8 +11,8 @@ export function WsClient() {
    
     return (
         <div>
-            <button onClick={() => sendMessage(JSON.stringify({a:123123}))}>Send Message</button>
-            <p>Last message: {JSON.parse(message ?? "{}")?.a}</p>
+ 
+            <p>Last message: {message}</p>
         </div>  
     );
 }   

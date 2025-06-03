@@ -11,12 +11,15 @@
   },
   "dependencies": {
     "@n1ru4l/json-patch-plus": "^0.2.0",
+    "babel-plugin-react-compiler": "^19.1.0-rc.2",
+    "lru-cache": "^11.1.0",
     "microdiff": "^1.5.0",
     "next": "15.4.0-canary.62",
     "next-ws": "^2.0.7",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "ws": "^8.18.2"
+    "ws": "^8.18.2",
+    "zod": "^3.25.49"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

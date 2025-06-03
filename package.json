@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "next-ws patch"
+    "prepare": "next-ws patch --yes"
   },
   "dependencies": {
     "@n1ru4l/json-patch-plus": "^0.2.0",
